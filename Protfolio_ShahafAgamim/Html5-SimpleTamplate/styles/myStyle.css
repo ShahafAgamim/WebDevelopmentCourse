@@ -1,0 +1,171 @@
+﻿body {
+    direction: rtl;
+    border-color: none;
+    font-family: Calibri;
+    margin: 0px auto;
+    width: 960px;
+    height:auto;
+    position: center;
+}
+
+/* הערה בתחתית דפי האתר "האתר הוקם במסגרת..." */
+footer {
+    text-align:end right;
+    color: black;
+    font-size:large;
+    font-family:David;
+    
+  }
+
+/***עיצוב תפריט ניווט***/
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    background-color: #8ae8ec;
+    padding: 10px;
+    margin-top:0px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Calibri;
+    font-size: large;
+    font-weight: bold;
+}
+
+    /* עיצוב מעבר עכבר בתפריט ניווט */
+    nav ul li a:hover {
+        background-color: white;
+        padding: 12px;
+        color: purple;
+    }
+
+    /* עיצוב לחיצת עכבר בתפריט ניווט */
+    nav ul li a:active {
+        background-color: purple;
+        padding: 10px;
+        color: white;
+    }
+
+/* עיצוב סימון עמוד נוכחי בתפריט ניווט */
+.currentPage {
+    background-color: purple;
+    padding: 10px;
+    color: white;
+}
+
+/***:עיצוב עמוד הבית***/
+/*כותרת בעמוד הבית */
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    font-family: Calibri;
+    padding:65px;
+    
+}
+
+/* טקסט בעמוד הבית */
+#hmInfo {
+    color: black;
+    font-size: 20px;
+    padding: 100px;
+    padding-right: 360px;
+    display: inline-block;
+}
+
+/* תמונת רקע בעמוד הבית */
+.homepage {
+    background-image: url('../images/sky1.png');
+    background-repeat: no-repeat;
+    background-size: 960px 700px;
+    position:center absolute;
+}
+
+/* תמונת לוגו בעמוד הבית */
+.homepage_content {
+    background-image: url('../images/myLogo.png');
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position-x:right 150px;
+   
+}
+
+
+
+/***עיצוב דפי תוכן***/
+
+/* תמונת רקע בדפי התוכן */
+.background {
+    background-image: url('../images/blue-close-up-concrete-304664.jpg');
+    background-repeat: no-repeat;
+    background-size:1536px 1024px;
+    position:center absolute;
+
+}
+
+/* כותרת בדפי התוכן */
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Calibri;
+    padding: 10px;
+}
+
+/* טקסט בדפי התוכן */
+.text {
+    color: black;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-right: 80px;
+    display: inline-block;
+    float: right;
+}
+
+audio {
+    width: 200px;
+    height: 50px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+
+/* תמונה בדף פוסטר */
+#poster {
+    padding:40px 180px;
+
+}
+
+/* תמונה בדף קולאז עצמי */
+#collage {
+    padding: 50px 200px;
+}
+
+
+/*טקסט בדף החלומות של דאלי */
+#textD {
+    color: black;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-right: 80px;
+    display: block;
+    
+}
+
+/* סרטון בדף החלומות של דאלי */
+iframe {
+    display: inline-block;
+    padding:100px 38px;
+}
+
+/* תמונה בדף החלומות של דאלי */
+#dreams {
+    display: inline-block;
+    padding: 100px 38px;
+}
+
+
+
+
+
